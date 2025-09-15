@@ -16,11 +16,41 @@
       type="text" 
       name="search"
       placeholder="Search the Web through LogicPhantomX...">
-
      <button type="submit">
   <img src="images/search_icon-removebg-preview.png" >
-</button>
+     </button>
     </form>
+    <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 600px; margin-top: 15px;"> 
+    <div style="text-align:left; margin-bottom:18px;color:#fff;">
+      <label style="margin-right:15px; ">
+      <input type="checkbox" style="accent-color:#00f7ff; margin-right:5px;"> 
+      All
+    </label>
+    <label style="margin-right:15px; ">
+      <input type="checkbox" style="accent-color:#00f7ff; margin-right:5px;"> Images
+    </label>
+    <label style="margin-right:15px;">
+      <input type="checkbox" style="accent-color:#00ff99; margin-right:5px;"> Videos
+    </label>
+    <label>
+      <input type="checkbox" style="accent-color:#009999; margin-right:5px;"> News
+    </label>
+  </div>
+   <div style="margin-bottom:22px;">
+    <select style="width:100%; padding:10px; border-radius:8px; border:1px solid #00f7ff; background: linear-gradient(90deg,#00e6e6,#00ff99);
+; color:#000000; font-size:16px; outline:none; transition:border 0.3s;"
+      onfocus="this.style.borderColor='#00ff99';" 
+      onblur="this.style.borderColor='#00f7ff';"
+    >
+      <option value="">Select Category</option>
+      <option value="web">Web</option>
+      <option value="articles">Articles</option>
+      <option value="tutorials">Tutorials</option>
+      <option value="projects">Projects</option>
+    </select>
+  </div>
+  </div>
+  
     <div class="info">
       <span class="info1">Not Google. Powered by </span>
       <span class="info2">LogicPhantomX</span>
